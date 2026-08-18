@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: booking-agent
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:mock-key-for-compilation}
+      chat:
+        options:
+          model: gpt-4o
